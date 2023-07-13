@@ -5,7 +5,7 @@ const getWs = (url) => {
     }
     return ws
 }
-let message = new Map(); // 存储该实例的所有接口
+let message = new Map(); // 存储该实例的所有接口√
 
 export default class Ws {
     url = undefined;
