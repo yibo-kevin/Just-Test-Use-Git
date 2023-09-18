@@ -2,6 +2,7 @@ let ws = null;
 const getWs = (url) => {
     if(!ws){
         ws = new WebSocket(url)
+        123
     }
     return ws
 }
